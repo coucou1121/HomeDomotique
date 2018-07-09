@@ -1,0 +1,9 @@
+Update the rapsberry
+
+sudo apt-get update
+sudo apt-get upgrade
+
+install the new packages
+
+sudo apt-get install qt5-default
+sudo apt-get install qtcreator

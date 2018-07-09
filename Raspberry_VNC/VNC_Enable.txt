@@ -1,0 +1,5 @@
+sudo raspi-config
+
+switch on the vnc connection.
+
+Reboot the device.

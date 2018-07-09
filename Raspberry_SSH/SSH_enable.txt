@@ -1,0 +1,5 @@
+read the SDcard on windows machine.
+
+in folder boot, creat a empty ssh.txt file.
+
+ssh is enable :-)

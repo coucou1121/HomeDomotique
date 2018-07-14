@@ -1,0 +1,13 @@
+install smbus2
+sudo pip install smbus2
+
+check the adress
+sudo i2cdetect -y 1
+
+change the adresse in py file (0x77)
+
+check if it's working
+python bme280_sample.py
+
+minimum requirement
+smbus2>=0.1.3

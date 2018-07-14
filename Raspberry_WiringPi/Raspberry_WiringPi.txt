@@ -1,0 +1,38 @@
+linke to the web
+
+http://wiringpi.com/download-and-install/
+
+-------------------------------------------
+install:
+
+sudo apt-get purge wiringpi
+hash -r
+sudo apt-get install git-core
+sudo apt-get update
+sudo apt dist-upgrade
+cd
+git clone git://git.drogon.net/wiringPi
+
+-------------------------------------------
+remove the original installation
+sudo apt-get purge wiringpi
+
+-------------------------------------------
+check update:
+
+cd ~/wiringPi
+git pull origin
+
+-------------------------------------------
+build/install:
+
+cd ~/wiringPi
+./build
+
+-------------------------------------------
+Test wiringPi’s installation
+
+gpio -v
+gpio readall
+
+That should give you some confidence that it’s working OK

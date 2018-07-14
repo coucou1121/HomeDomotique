@@ -1,0 +1,12 @@
+install qt5
+sudo apt-get install qt5-default
+
+install qtCreator
+sudo apt-get install qtcreator
+
+Add GCC compiler
+
+Tools-> Option
+
+Compiler tab -> Add -> GCC
+Compiler bath /usr/bin/arm-linux-gnueabihf-g++
